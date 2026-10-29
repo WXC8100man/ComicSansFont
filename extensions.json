@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Comic Sans Font",
+	"version": "1.0.0",
+	"author": ["Vcrelt373246"],
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ComicSansFont::onParserFirstCallInit"
+	},
+	"AutoloadClasses": {
+		"ComicSansFont": "ComicSansFont.php"
+	}
+}
